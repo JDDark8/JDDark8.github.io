@@ -1,5 +1,4 @@
 const yearTarget = document.querySelector('#year');
-const revealNodes = document.querySelectorAll('.reveal');
 const kidsPageLibrary = document.querySelector('#kids-page-library');
 const kidsAudioLibrary = window.kidsAudioLibrary || [];
 
@@ -104,4 +103,4 @@ const observer = new IntersectionObserver(
     { threshold: 0.12 }
 );
 
-revealNodes.forEach((node) => observer.observe(node));
+document.querySelectorAll('.reveal').forEach((node) => observer.observe(node));
