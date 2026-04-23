@@ -1,0 +1,21 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="64" fill="url(#bg)"/>
+  <circle cx="510" cy="120" r="66" fill="#E7F7FF" fill-opacity="0.88"/>
+  <path d="M120 478C184 414.667 254 383 330 383C406 383 476 414.667 540 478" stroke="#C8EEFF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M174 445L305 220C312.452 207.204 330.93 207.621 337.797 220.74L458 450" fill="#0E3D6D"/>
+  <path d="M174 445L305 220C312.452 207.204 330.93 207.621 337.797 220.74L458 450" stroke="#EAF9FF" stroke-width="10" stroke-linejoin="round"/>
+  <circle cx="322" cy="290" r="22" fill="#EAF9FF"/>
+  <path d="M322 154L333 182H362L338 199L347 227L322 210L297 227L306 199L282 182H311L322 154Z" fill="#FFF6B7"/>
+  <circle cx="226" cy="212" r="8" fill="#EAF9FF"/>
+  <circle cx="420" cy="242" r="8" fill="#EAF9FF"/>
+  <circle cx="432" cy="182" r="6" fill="#EAF9FF"/>
+  <circle cx="201" cy="273" r="6" fill="#EAF9FF"/>
+  <text x="60" y="94" fill="#0D467A" font-family="'Trebuchet MS', 'Arial', sans-serif" font-size="38" font-weight="700">7-11 Jahre</text>
+  <text x="60" y="548" fill="#EAF9FF" font-family="'Trebuchet MS', 'Arial', sans-serif" font-size="44" font-weight="700">Abenteuer Hörspiele</text>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="560" y2="596" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BDAFF"/>
+      <stop offset="1" stop-color="#2D92F4"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="64" fill="url(#bg)"/>
+  <circle cx="508" cy="118" r="68" fill="#FFF6D8" fill-opacity="0.8"/>
+  <circle cx="126" cy="520" r="88" fill="#FFFFFF" fill-opacity="0.28"/>
+  <path d="M177 428C177 345.71 243.71 279 326 279V279C408.29 279 475 345.71 475 428V472H177V428Z" fill="#8C4B5D"/>
+  <circle cx="326" cy="239" r="116" fill="#9F5B6E"/>
+  <circle cx="245" cy="151" r="42" fill="#9F5B6E"/>
+  <circle cx="407" cy="151" r="42" fill="#9F5B6E"/>
+  <circle cx="279" cy="224" r="14" fill="#2D1B21"/>
+  <circle cx="373" cy="224" r="14" fill="#2D1B21"/>
+  <ellipse cx="326" cy="270" rx="34" ry="24" fill="#FCE6B9"/>
+  <path d="M302 296C315.333 308 336.667 308 350 296" stroke="#2D1B21" stroke-width="12" stroke-linecap="round"/>
+  <path d="M320 90L336 54L352 90" stroke="#FFF9EF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="94" fill="#5A2031" font-family="'Trebuchet MS', 'Arial', sans-serif" font-size="38" font-weight="700">2-3 Jahre</text>
+  <text x="60" y="548" fill="#FFF9EF" font-family="'Trebuchet MS', 'Arial', sans-serif" font-size="44" font-weight="700">Lars Geschichten</text>
+  <defs>
+    <linearGradient id="bg" x1="86" y1="54" x2="551" y2="596" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD5E0"/>
+      <stop offset="1" stop-color="#F18AA4"/>
+    </linearGradient>
+  </defs>
+</svg>

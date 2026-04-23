@@ -2,7 +2,7 @@ window.kidsAudioLibrary = [
     {
         ageGroup: '2-3 Jahre',
         ageKey: '2-3',
-        coverIcon: 'Ba',
+        coverImage: 'assets/covers/cover-2-3.svg',
         description: 'Kurze Alltagsgeschichten mit ruhigem Einstieg und klaren Wiederholungen.',
         groups: [
             {
@@ -20,7 +20,7 @@ window.kidsAudioLibrary = [
     {
         ageGroup: '4-6 Jahre',
         ageKey: '4-6',
-        coverIcon: 'Ti',
+        coverImage: 'assets/covers/cover-4-6.svg',
         description: 'Tiergeschichten mit wiederkehrenden Figuren für Technik und Pseudostottern.',
         groups: [
             {
@@ -54,7 +54,7 @@ window.kidsAudioLibrary = [
     {
         ageGroup: '7-11 Jahre',
         ageKey: '7-11',
-        coverIcon: 'Ab',
+        coverImage: 'assets/covers/cover-7-11.svg',
         description: 'Abenteuerliche Geschichten für etwas ältere Kinder mit klaren Übungsmomenten.',
         groups: [
             {

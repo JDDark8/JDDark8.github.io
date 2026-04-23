@@ -25,15 +25,16 @@ function renderKidsPageLibrary() {
                         .map((item) => {
                             const sourcePath = encodeURI(item.path);
                             const description = createTrackDescription(item.title, group.title, ageGroup.ageGroup);
+                            const coverImagePath = encodeURI(ageGroup.coverImage);
 
                             return `
                                 <article class="kids-track-card reveal">
                                     <div class="kids-track-cover kids-track-cover-${ageGroup.ageKey}">
+                                        <img class="kids-track-cover-art" src="${coverImagePath}" alt="Cover für ${ageGroup.ageGroup}">
                                         <div class="kids-track-badges">
                                             <span class="kids-cover-pill">${ageGroup.ageGroup}</span>
                                             <span class="kids-cover-pill">${group.title}</span>
                                         </div>
-                                        <span class="kids-cover-icon">${ageGroup.coverIcon}</span>
                                         <h3 class="kids-track-cover-title">${item.title}</h3>
                                     </div>
                                     <div class="kids-track-body">
