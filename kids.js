@@ -27,28 +27,20 @@ function renderKidsPageLibrary() {
                     const itemsMarkup = group.items
                         .map((item) => {
                             const sourcePath = encodeURI(item.path);
-                            const description = createTrackDescription(item.title, group.title, ageGroup.ageGroup);
                             const coverImagePath = encodeURI(ageGroup.coverImage);
 
                             return `
                                 <article class="kids-track-card reveal">
                                     <div class="kids-track-cover kids-track-cover-${ageGroup.ageKey}">
                                         <img class="kids-track-cover-art" src="${coverImagePath}" alt="Cover für ${ageGroup.ageGroup}">
-                                        <div class="kids-track-badges">
-                                            <span class="kids-cover-pill">${ageGroup.ageGroup}</span>
-                                            <span class="kids-cover-pill">${group.title}</span>
-                                        </div>
-                                        <h3 class="kids-track-cover-title">${item.title}</h3>
                                     </div>
                                     <div class="kids-track-body">
-                                        <p class="kids-track-copy">${description}</p>
-                                        <audio class="kids-audio" controls preload="none">
-                                            <source src="${sourcePath}" type="audio/wav">
-                                            Dein Browser kann diese Audiodatei nicht direkt abspielen.
-                                        </audio>
-                                        <div class="kids-track-actions">
+                                        <h3 class="kids-track-title">${item.title}</h3>
+                                        <div class="kids-track-controls">
+                                            <audio class="kids-audio" controls preload="none">
+                                                <source src="${sourcePath}" type="audio/wav">
+                                            </audio>
                                             <a class="kids-link kids-link-primary" href="${sourcePath}" download>Herunterladen</a>
-                                            <a class="kids-link kids-link-secondary" href="${sourcePath}" target="_blank" rel="noreferrer">Direkt öffnen</a>
                                         </div>
                                     </div>
                                 </article>
