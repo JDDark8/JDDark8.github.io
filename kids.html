@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kids | IMS Go Hoerspiele</title>
+    <meta
+        name="description"
+        content="Kostenlose Hoerspiele fuer stotternde Kinder. Direkt anhoeren oder herunterladen, sortiert nach Altersgruppen und Techniken."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="IMS Go Kids - Hoerspiele fuer Kinder">
+    <meta
+        property="og:description"
+        content="Die Kids-Seite von IMS Go mit kostenlosen Hoerspielen zum direkten Anhoeren und Herunterladen."
+    >
+    <meta property="og:image" content="https://jddark8.github.io/assets/images/ims-go-logo.png">
+    <link rel="icon" href="assets/images/ims-go-logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="kids-page-shell">
+        <header class="kids-page-topbar">
+            <a class="brand" href="index.html">IMS Go</a>
+            <nav class="kids-page-nav" aria-label="Altersgruppen Navigation">
+                <a href="#age-2-3">2-3 Jahre</a>
+                <a href="#age-4-6">4-6 Jahre</a>
+                <a href="#age-7-11">7-11 Jahre</a>
+            </nav>
+            <a class="kids-page-back" href="index.html">Zurueck zur Startseite</a>
+        </header>
+
+        <main>
+            <section class="kids-hero reveal">
+                <div class="kids-hero-main">
+                    <p class="eyebrow">Kids Hoerspiele</p>
+                    <h1>Hoeren, mitmachen, wiederholen.</h1>
+                    <p class="kids-hero-copy">
+                        Diese Seite sammelt alle kostenlosen Hoerspiele fuer Kinder. Sie lassen sich direkt
+                        auf der Seite anhoeren oder als Audiodatei herunterladen.
+                    </p>
+                    <div class="kids-hero-points">
+                        <span>29 Hoerspiele</span>
+                        <span>Mit Audio-Player</span>
+                        <span>Kostenloser Download</span>
+                        <span>Farbcodes pro Altersgruppe</span>
+                    </div>
+                </div>
+                <aside class="kids-hero-side">
+                    <div class="kids-side-card">
+                        <p class="eyebrow">Fuer Familien und Therapie</p>
+                        <h2>Einfach nutzbar im Alltag</h2>
+                        <p>
+                            Die Hoerspiele koennen zuhause, unterwegs oder in der Therapie eingesetzt werden,
+                            um Techniken wiederzuerkennen und vertrauter werden zu lassen.
+                        </p>
+                        <ul>
+                            <li>Direkt im Browser abspielbar</li>
+                            <li>Jede Geschichte einzeln downloadbar</li>
+                            <li>Getrennt nach Techniken und Pseudostottern</li>
+                        </ul>
+                    </div>
+                </aside>
+            </section>
+
+            <section id="kids-page-library" class="kids-page-library" aria-live="polite"></section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="index.html">Startseite</a>
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="mailto:imsgo@gmx.de">Kontakt</a>
+            </div>
+            <p class="copyright">
+                Kids-Bereich von IMS Go<br>
+                © <span id="year"></span> Alle Rechte vorbehalten.
+            </p>
+        </footer>
+    </div>
+
+    <script src="audio-library.js"></script>
+    <script src="kids.js"></script>
+</body>
+</html>
